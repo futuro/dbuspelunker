@@ -5,4 +5,5 @@
   :depends-on (#:dbus)
   :serial t
   :components ((:file "package")
+	       (:file "constants")
 	       (:file "dbuspelunker")))
